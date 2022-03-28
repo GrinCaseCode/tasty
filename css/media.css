@@ -618,7 +618,7 @@ padding-left: 20px;
     padding-bottom: 40px;
 }
 .image-structure {
-	margin: 40px 0;
+	margin: 40px auto;
 	width: 320px;
     height: 320px;
     transform: none;
