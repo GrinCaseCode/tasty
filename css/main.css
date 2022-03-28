@@ -73,11 +73,21 @@ form {
 	margin: 0;
 }
 .header {
-	position: absolute;
+	position: fixed;
 	top: 0;
 	left: 0;
 	width: 100%;
 	z-index: 1000;
+	transition: all 0.3s;
+}
+.header.fixed {
+	background-color: #fff;
+}
+.header.fixed .header-right__contacts a {
+	color: #333;
+}
+.header.fixed .header-bottom {
+	box-shadow: none;
 }
 .header-top {
 	padding: 6px 0;
@@ -136,6 +146,10 @@ form {
 	margin-left: 12px;
 	align-items: center;
 	justify-content: center;
+	transition: all 0.3s;
+}
+.btn-basket:hover {
+	background-color: #44bf52;
 }
 .header-right {
 	display: flex;
@@ -592,6 +606,7 @@ form {
 	border: none;
 	background-color: #feefc8;
 	border-radius: 6px;
+	display: inline-block;
 	transition: all 0.3s;
 }
 .btn-simple:hover {
@@ -1383,4 +1398,92 @@ color: #00210c;
 }
 .footer-bottom .row {
 	align-items: center;
+}
+.footer__title i {
+	display: none;
+}
+/*Style Sandwich*/
+.btn_nav {
+	display: none;
+	border: none;
+	z-index: 60;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+	vertical-align: middle;
+	position: relative;
+}
+.btn_nav:hover {
+	opacity: 1;
+} 
+.sandwich span {
+	display: block;
+}
+.sandwich {
+	width: 36px;
+	height:36px;
+	padding-top: 6px;
+	border-radius: 50%;
+	background-color: #3cb64a;
+	margin: auto;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	z-index: 20;
+	cursor: pointer;
+}
+.sw-topper {
+	position: relative;
+	top: 4px;
+	width: 17px;
+	height: 2px;
+	display: block;
+	background-color: #fff;
+	border: medium none;
+	transition: transform 0.5s, top 0.2s;
+	/* transition-delay: 0.2s, 0s; */
+}
+.sw-bottom {
+	position: relative;
+	top: 9px;
+	width: 17px;
+	height: 2px;
+	display: block;
+	background-color: #fff;
+	border: medium none;
+	transition: transform 0.5s, top 0.2s;
+	transition-delay: 0.2s, 0s;
+}
+.sw-footer {
+	position: relative;
+	top: 14px;
+	width: 17px;
+	height: 2px;
+	display: block;
+	background-color: #fff;
+	border: medium none;
+	transition: all 0.5s;
+	transition-delay: 0.1s;
+}
+.sandwich.active .sw-topper {
+	top: 11px;
+	transform: rotate(45deg);
+}
+.sandwich.active .sw-bottom {
+	opacity: 0;
+}
+.sandwich.active .sw-footer {
+	top: 7px;
+	transform: rotate(-45deg);
+}
+.header.nav-up {
+	transform: translateY(-135px);
+}
+.header.nav-down {
+	transform: translateY(0px);
+	    box-shadow: 0px 6px 10px 0px rgb(236 132 1 / 20%);
 }
