@@ -19,14 +19,14 @@
 	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick.css" />
 	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick-theme.css" />
 	<link rel="stylesheet" href="css/fonts.css" />
-	<link rel="stylesheet" href="css/main.css?ver=1.1" />
-	<link rel="stylesheet" href="css/media.css?ver=1.1" />
+	<link rel="stylesheet" href="css/main.css?ver=1.2" />
+	<link rel="stylesheet" href="css/media.css?ver=1.2" />
 </head>
 <body>
 
 	<div class="wrapper">
 
-		<header class="header">
+		<header class="header default">
 			<div class="container">
 				<div class="header-top">
 					<div class="logo-wrap">
@@ -36,9 +36,11 @@
 						<div class="logo-descr">Производство и продажа <br>вакуумно-сублимационной установки</div>
 					</div>
 					<div class="dropdown-location">
-						<div class="dropdown-location__arrow"><i class="fas fa-chevron-down"></i></div>
-						<div class="title-header">г. Истра</div>
-						<div class="descr-header">ул. Панфилова, 11</div>
+						<div class="dropdown-location__head">
+							<div class="dropdown-location__arrow"><i class="fas fa-chevron-down"></i></div>
+							<div class="title-header">г. Истра</div>
+							<div class="descr-header">ул. Панфилова, 11</div>
+						</div>
 						<div class="dropdown-location__content">
 							<ul>
 								<li><a href="#"><strong>г. Истра</strong> ул. Панфилова, 11</a></li>
@@ -66,6 +68,13 @@
 							<span class="btn-basket__value">1</span>
 						</a>
 					</div>
+					<span class="btn_nav">
+						<span class='sandwich'>
+							<span class='sw-topper'></span>
+							<span class='sw-bottom'></span>
+							<span class='sw-footer'></span>
+						</span>
+					</span>
 				</div>
 				<div class="header-bottom">
 					<ul class="menu">
@@ -85,6 +94,43 @@
 							<button class="btn-search"><i class="far fa-search"></i></button>
 						</form>
 					</div>
+				</div>
+			</div>
+			<div class="menu-mobile">
+				<div class="search-form">
+					<form>
+						<input type="text" required="required">
+						<button class="btn-search"><i class="far fa-search"></i></button>
+					</form>
+				</div>
+				<ul class="menu">
+					<li><a href="#">О нас</a></li>
+					<li><a href="#">Каталог</a></li>
+					<li><a href="#">Рецепты</a></li>
+					<li><a href="#">Для бизнеса</a></li>
+					<li><a href="#">Дилерам</a></li>
+					<li><a href="#">Вопрос-ответ</a></li>
+					<li><a href="#">Документация</a></li>
+					<li><a href="#">Новости</a></li>
+					<li><a href="#">Контакты</a></li>
+				</ul>
+				<div class="dropdown-location">
+					<div class="dropdown-location__head">
+						<div class="dropdown-location__arrow"><i class="fas fa-chevron-down"></i></div>
+						<div class="title-header">г. Истра</div>
+						<div class="descr-header">ул. Панфилова, 11</div>
+					</div>
+					<div class="dropdown-location__content">
+						<ul>
+							<li><a href="#"><strong>г. Истра</strong> ул. Панфилова, 11</a></li>
+							<li><a href="#"><strong>г. Истра</strong> ул. Панфилова, 7</a></li>
+							<li><a href="#"><strong>г. Истра</strong> ул. Панфилова, 15</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="header-contact">
+					<div class="title-header">E-mail:</div>
+					<div class="descr-header"><a href="mailto:sale@b-tasty.ru">sale@b-tasty.ru</a></div>
 				</div>
 			</div>
 		</header>
@@ -252,7 +298,7 @@
 							<a href="#" class="btn-main">Скачать руководство по эксплуатации</a>
 						</div>
 					</div>
-					<div class="col-lg-5">
+					<div class="col-lg-5 col-md-7">
 						<div class="image-structure">
 							<img src="img/structure.png" alt="alt">
 							<div class="number-structure number-structure_1">1</div>
@@ -261,7 +307,7 @@
 							<div class="number-structure number-structure_4">4</div>
 						</div>
 					</div>
-					<div class="col-lg-3">
+					<div class="col-lg-3 col-md-5">
 						<div class="item-structure">
 							<div class="item-structure__number">1</div>
 							<p><strong>Вакуумная камера:</strong> цилиндрическая камера со стеллажом для лотков.</p>
@@ -601,7 +647,7 @@
 						</ul>
 					</div>
 					<div class="col-lg-4">
-						<div class="footer__title">Каталог</div>
+						<div class="footer__title">Каталог <i class="far fa-chevron-down"></i></div>
 						<div class="footer__content">
 							<ul class="footer__nav">
 								<li><a href="#">Лиофильные (сублимационные) сушилки</a></li>
@@ -674,7 +720,7 @@
 <script src="libs/scroll2id/PageScroll2id.min.js"></script>
 <script src="libs/mask/jquery.maskedinput.js"></script>
 <script src="libs/jQueryFormStyler-master/jquery.formstyler.min.js"></script>
-<script src="js/common.js?ver=1.1"></script>
+<script src="js/common.js?ver=1.2"></script>
 <!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
 <!-- Google Analytics counter --><!-- /Google Analytics counter -->
 </body>
