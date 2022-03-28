@@ -1487,3 +1487,6 @@ color: #00210c;
 	transform: translateY(0px);
 	    box-shadow: 0px 6px 10px 0px rgb(236 132 1 / 20%);
 }
+.header.nav-down.default {
+	box-shadow: none;
+}
