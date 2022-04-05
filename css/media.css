@@ -989,6 +989,7 @@ padding-left: 20px;
 }
 .delivery-block__image img {
     max-width: 335px;
+    align-self: start;
 }
 .delivery {
     padding-bottom: 290px;
