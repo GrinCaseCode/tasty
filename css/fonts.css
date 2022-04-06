@@ -43,57 +43,57 @@
 	font-weight: 800;
 	font-style: normal;
 }
-  @font-face {
-  	font-family: 'Ruberoid';
-  	src: local('Ruberoid Medium'), local('Ruberoid-Medium'),
-  	url('../fonts/Ruberoid-Medium.woff2') format('woff2'),
-  	url('../fonts/Ruberoid-Medium.woff') format('woff'),
-  	url('../fonts/Ruberoid-Medium.ttf') format('truetype');
-  	font-weight: 500;
-  	font-style: normal;
-  }
-  @font-face {
-  	font-family: 'Ruberoid';
-  	src: local('Ruberoid Regular'), local('Ruberoid-Regular'),
-  	url('../fonts/Ruberoid-Regular.woff2') format('woff2'),
-  	url('../fonts/Ruberoid-Regular.woff') format('woff'),
-  	url('../fonts/Ruberoid-Regular.ttf') format('truetype');
-  	font-weight: 400;
-  	font-style: normal;
-  }
-  @font-face {
-  	font-family: 'Ruberoid';
-  	src: local('Ruberoid Light'), local('Ruberoid-Light'),
-  	url('../fonts/Ruberoid-Light.woff2') format('woff2'),
-  	url('../fonts/Ruberoid-Light.woff') format('woff'),
-  	url('../fonts/Ruberoid-Light.ttf') format('truetype');
-  	font-weight: 300;
-  	font-style: normal;
-  }
-  @font-face {
-    font-family: 'Ruberoid';
-    src: local('Ruberoid SemiBold'), local('Ruberoid-SemiBold'),
-        url('../fonts/Ruberoid-SemiBold.woff2') format('woff2'),
-        url('../fonts/Ruberoid-SemiBold.woff') format('woff'),
-        url('../fonts/Ruberoid-SemiBold.ttf') format('truetype');
-    font-weight: 600;
-    font-style: normal;
-  }
-  @font-face {
-    font-family: 'Ruberoid';
-    src: local('Ruberoid Bold'), local('Ruberoid-Bold'),
-        url('../fonts/Ruberoid-Bold.woff2') format('woff2'),
-        url('../fonts/Ruberoid-Bold.woff') format('woff'),
-        url('../fonts/Ruberoid-Bold.ttf') format('truetype');
-    font-weight: 700;
-    font-style: normal;
-  }
-  @font-face {
-    font-family: 'Ruberoid';
-    src: local('Ruberoid Extra Bold'), local('Ruberoid-Extra-Bold'),
-        url('../fonts/Ruberoid-ExtraBold.woff2') format('woff2'),
-        url('../fonts/Ruberoid-ExtraBold.woff') format('woff'),
-        url('../fonts/Ruberoid-ExtraBold.ttf') format('truetype');
-    font-weight: 800;
-    font-style: normal;
-  }
+@font-face {
+ font-family: 'Ruberoid';
+ src: local('Ruberoid Medium'), local('Ruberoid-Medium'),
+ url('../fonts/Ruberoid-Medium.woff2') format('woff2'),
+ url('../fonts/Ruberoid-Medium.woff') format('woff'),
+ url('../fonts/Ruberoid-Medium.ttf') format('truetype');
+ font-weight: 500;
+ font-style: normal;
+}
+@font-face {
+ font-family: 'Ruberoid';
+ src: local('Ruberoid Regular'), local('Ruberoid-Regular'),
+ url('../fonts/Ruberoid-Regular.woff2') format('woff2'),
+ url('../fonts/Ruberoid-Regular.woff') format('woff'),
+ url('../fonts/Ruberoid-Regular.ttf') format('truetype');
+ font-weight: 400;
+ font-style: normal;
+}
+@font-face {
+ font-family: 'Ruberoid';
+ src: local('Ruberoid Light'), local('Ruberoid-Light'),
+ url('../fonts/Ruberoid-Light.woff2') format('woff2'),
+ url('../fonts/Ruberoid-Light.woff') format('woff'),
+ url('../fonts/Ruberoid-Light.ttf') format('truetype');
+ font-weight: 300;
+ font-style: normal;
+}
+@font-face {
+  font-family: 'Ruberoid';
+  src: local('Ruberoid SemiBold'), local('Ruberoid-SemiBold'),
+  url('../fonts/Ruberoid-SemiBold.woff2') format('woff2'),
+  url('../fonts/Ruberoid-SemiBold.woff') format('woff'),
+  url('../fonts/Ruberoid-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Ruberoid';
+  src: local('Ruberoid Bold'), local('Ruberoid-Bold'),
+  url('../fonts/Ruberoid-Bold.woff2') format('woff2'),
+  url('../fonts/Ruberoid-Bold.woff') format('woff'),
+  url('../fonts/Ruberoid-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Ruberoid';
+  src: local('Ruberoid Extra Bold'), local('Ruberoid-Extra-Bold'),
+  url('../fonts/Ruberoid-ExtraBold.woff2') format('woff2'),
+  url('../fonts/Ruberoid-ExtraBold.woff') format('woff'),
+  url('../fonts/Ruberoid-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
