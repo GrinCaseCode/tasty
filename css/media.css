@@ -1405,13 +1405,13 @@
 		line-height: 23px;
 	}
 	.dealer-block {
-    font-size: 16px;
-    line-height: 26px;
-    padding: 30px 20px;
-}
-.dealer .special-income {
-	padding: 25px 20px;
-}
+		font-size: 16px;
+		line-height: 26px;
+		padding: 30px 20px;
+	}
+	.dealer .special-income {
+		padding: 25px 20px;
+	}
 }
 
 /* Custom, iPhone Retina */
