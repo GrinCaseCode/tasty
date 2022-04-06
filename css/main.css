@@ -2450,8 +2450,8 @@ a.info-text__phone {
 }
 .descr-big {
 	font-size: 20px;
-line-height: 30px;
-font-weight: 600;
+	line-height: 30px;
+	font-weight: 600;
 }
 .dealer .title-section {
 	padding-bottom: 35px;
@@ -2467,25 +2467,26 @@ font-weight: 600;
 .dealer {
 	padding-top: 44px;
 	padding-bottom: 80px;
-		background-image: url(../img/bg_warranty.jpg);
+	background-image: url(../img/bg_warranty.jpg);
 	background-repeat: no-repeat;
 	background-position: right bottom -500px;
 }
 .dealer-block {
 	font-size: 24px;
-line-height: 36px;
-padding: 55px 70px;
-padding-right: 265px;
-margin-top: 45px;
-margin-bottom: 60px;
-font-weight: 700;
-color: #ffffff;
- font-family: 'Ruberoid';
- background-color: #f6871f;
-background-image: linear-gradient(174.0deg, #f6871f 14%, #f6871f 10%, #feb500 85%);
-border-radius: 10px;
+	line-height: 36px;
+	padding: 55px 70px;
+	padding-right: 265px;
+	margin-top: 45px;
+	margin-bottom: 60px;
+	font-weight: 700;
+	color: #ffffff;
+	font-family: 'Ruberoid';
+	background-color: #f6871f;
+	background-image: linear-gradient(174.0deg, #f6871f 14%, #f6871f 10%, #feb500 85%);
+	border-radius: 10px;
 	position: relative;
 	max-width: 843px;
+	z-index: 1;
 }
 .bottom-form {
 	display: flex;
@@ -2498,13 +2499,14 @@ border-radius: 10px;
 	bottom: 0;
 	margin: auto;
 	position: absolute;
+	z-index: -1;
 }
 .dealer-block .image-circle img {
-	    position: relative;
-    left: -7px;
-    top: -7px;
+	position: relative;
+	left: -7px;
+	top: -7px;
 	width: initial;
 	height: initial;
 	border-radius: 0;
-	 object-fit: none;
+	object-fit: none;
 }
