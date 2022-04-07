@@ -79,6 +79,16 @@
 	.dealer-block br {
 		display: none;
 	}
+	.row_documents {
+	margin: 0 -15px;
+}
+.row_documents > div {
+	padding: 0 15px;
+}
+.item-document {
+    height: 457px;
+    padding: 23px 14px;
+    }
 }
 @media only screen and (max-width : 1420px) {
 	.title-section {
@@ -208,6 +218,9 @@
 		padding-left: 35px;
 		padding-right: 35px;
 	}
+	.item-document {
+    height: 421px;
+}
 }
 @media only screen and (max-width : 1300px) {
 	.special-income {
@@ -388,6 +401,9 @@
 		line-height: 31px;
 		max-width: 610px;
 	}
+	.item-document {
+    height: 379px;
+}
 }
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
@@ -523,6 +539,12 @@
 	.dealer .income__about-right {
 		padding-top: 25px;
 	}
+	.item-document {
+    height: 287px;
+}
+.documents {
+	padding-bottom: 80px;
+}
 }
 
 /* Medium Devices, Desktops */
@@ -889,6 +911,9 @@
 	.dealer .block-form_page .btn-main {
 		width: initial;
 	}
+	.item-document {
+    height: 307px;
+}
 }
 
 /* Small Devices, Tablets */
@@ -1412,6 +1437,22 @@
 	.dealer .special-income {
 		padding: 25px 20px;
 	}
+	.row_documents {
+		margin: 0 -6px;
+	}
+	.row_documents > div {
+		padding: 0 6px;
+	}
+	.item-document {
+    height: 232px;
+    padding: 15px 8px;
+    max-width: 160px;
+    margin-top: 20px;
+}
+.documents {
+	padding-top: 30px;
+	padding-bottom: 40px;
+}
 }
 
 /* Custom, iPhone Retina */
