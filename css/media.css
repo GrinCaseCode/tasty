@@ -80,15 +80,29 @@
 		display: none;
 	}
 	.row_documents {
-	margin: 0 -15px;
-}
-.row_documents > div {
-	padding: 0 15px;
-}
-.item-document {
-    height: 457px;
-    padding: 23px 14px;
-    }
+		margin: 0 -15px;
+	}
+	.row_documents > div {
+		padding: 0 15px;
+	}
+	.item-document {
+		height: 457px;
+		padding: 23px 14px;
+	}
+	.billbord_b2b .title-section {
+		font-size: 29px;
+	}
+	.row_b2b > div {
+		padding: 0 25px;
+	}
+	.row_b2b {
+		margin: 0 -25px;
+	}
+	.form-simple {
+		width: 390px;
+		padding: 70px 60px;
+		padding-bottom: 40px;
+	}
 }
 @media only screen and (max-width : 1420px) {
 	.title-section {
@@ -219,8 +233,22 @@
 		padding-right: 35px;
 	}
 	.item-document {
-    height: 421px;
-}
+		height: 421px;
+	}
+	.billbord_b2b .title-section {
+		margin-bottom: 133px;
+	}
+	.form-simple__image img {
+		max-width: 300px;
+	}
+	.form-simple {
+		padding: 55px 60px;
+		padding-bottom: 40px;
+	}
+	.item-step__image {
+		width: 320px;
+		height: 320px;
+	}
 }
 @media only screen and (max-width : 1300px) {
 	.special-income {
@@ -402,8 +430,38 @@
 		max-width: 610px;
 	}
 	.item-document {
-    height: 379px;
-}
+		height: 379px;
+	}
+	.billbord_b2b .video-main {
+		left: 0;
+	}
+	.form-simple__image {
+		margin-right: -54px;
+	}
+	.form-simple {
+		width: 350px;
+	}
+	.item-step__image {
+		width: 300px;
+		height: 300px;
+	}
+	.item-step__image {
+		margin: 60px auto;
+	}
+	.order-block .col-title {
+		padding-right: 5px;
+	}
+	.order-block {
+		padding: 35px 40px;
+		padding-bottom: 30px;
+		margin-left: 185px;
+	}
+	.order-block__image img {
+		max-width: 230px;
+	}
+	.order-block__image {
+		margin-right: -33px;
+	}
 }
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
@@ -540,11 +598,58 @@
 		padding-top: 25px;
 	}
 	.item-document {
-    height: 287px;
-}
-.documents {
-	padding-bottom: 80px;
-}
+		height: 287px;
+	}
+	.documents {
+		padding-bottom: 80px;
+	}
+	.billbord_b2b .title-section {
+		margin-bottom: 130px;
+	}
+	.billbord_b2b {
+		padding-top: 200px;
+	}
+	.billbord_b2b .video-main {
+		right: 0;
+		left: auto;
+	}
+	.row_b2b > div {
+		margin-top: 80px;
+	}
+	.form-simple {
+		width: 420px;
+		padding: 70px 70px;
+		padding-bottom: 40px;
+	}
+	.form-simple__image img {
+		max-width: initial;
+	}
+	.special-income {
+		width: 247px;
+	}
+	.item-step__image {
+		width: 220px;
+		height: 220px;
+	}
+	.item-step {
+		font-size: 16px;
+	}
+	.steps {
+		padding-top: 45px;
+		padding-bottom: 50px;
+	}
+	.steps .title-section {
+		max-width: 680px;
+	}
+	.col-title {
+		width: 100%;
+	}
+	.col-title .title-section br {
+		display: none;
+	}
+	.order-block__image {
+		top: -19px;
+	}
 }
 
 /* Medium Devices, Desktops */
@@ -912,8 +1017,64 @@
 		width: initial;
 	}
 	.item-document {
-    height: 307px;
-}
+		height: 307px;
+	}
+	.billbord_b2b .video-main {
+		display: inline-block;
+	}
+	.billbord_b2b .title-section {
+		max-width: 455px;
+		margin-bottom: 60px;
+	}
+	.row_steps {
+		justify-content: center;
+	}
+	.order-block__image {
+		display: none;
+	}
+	.order-block {
+		margin-left: 0;
+	}
+	.order-block .btn-main {
+		width: 100%;
+	}
+	.order {
+		padding-bottom: 50px;
+	}
+	.item-step__image {
+		margin-bottom: 40px;
+	}
+	.advantages_b2b {
+		padding-bottom: 60px;
+	}
+	.row_b2b > div.col_form {
+		margin-top: 40px;
+	}
+	.modal-wrap .order-block {
+		margin-left: 0;
+		margin-top: 260px;
+		padding-left: 30px;
+	}
+	.modal-wrap .checkbox-wrap {
+		justify-content: center;
+	}
+	.modal-wrap .order-block .title-section {
+		margin-bottom: 20px;
+	}
+	.modal-wrap .order-block__image {
+		height: 260px;
+		padding: 15px;
+		bottom: 100%;
+		left: 0;
+		right: 0;
+		width: 100%;
+		top: auto;
+		display: flex;
+		align-items: center;
+	}
+	.modal-wrap .order-block__image img {
+		max-height: 100%;
+	}
 }
 
 /* Small Devices, Tablets */
@@ -1193,7 +1354,39 @@
 		max-width: 100%;
 		margin-bottom: 30px;
 	}
-
+	.billbord_b2b {
+		background-image: url(../img/bg_main.png);
+	}
+	.billbord_b2b .video-main {
+		display: none;
+	}
+	.billbord_b2b .title-section {
+		margin-bottom: 40px;
+	}
+	.unit-advantage-image {
+		margin-bottom: -15px;
+	}
+	.form-simple__image {
+		display: none;
+	}
+	.form-simple {
+		padding: 53px 35px;
+		padding-bottom: 35px;
+		width: 100%;
+	}
+	.advantages_b2b {
+		padding-bottom: 45px;
+	}
+	.steps {
+		padding-bottom: 40px;
+	}
+	.advantages .title-section {
+		padding-bottom: 30px;
+	}
+	.item-step__image {
+		width: 260px;
+		height: 260px;
+	}
 }
 
 /* Extra Small Devices, Phones */
@@ -1444,14 +1637,55 @@
 		padding: 0 6px;
 	}
 	.item-document {
-    height: 232px;
-    padding: 15px 8px;
-    max-width: 160px;
-    margin-top: 20px;
+		height: 232px;
+		padding: 15px 8px;
+		max-width: 160px;
+		margin-top: 20px;
+	}
+	.documents {
+		padding-top: 30px;
+		padding-bottom: 40px;
+	}
+	.billbord_b2b .title-section {
+    font-size: 21px;
 }
-.documents {
-	padding-top: 30px;
-	padding-bottom: 40px;
+.title-page {
+    font-size: 25px;
+    line-height: 34px;
+    }
+    .form-simple .title-page {
+    margin-bottom: 20px;
+}
+.checkbox-wrap .checkbox {
+	white-space: normal;
+}
+.form-simple .checkbox {
+	margin-top: 17px;
+}
+.form-simple {
+    padding: 35px 15px;
+    padding-bottom: 30px;
+    background-image: linear-gradient(174.0deg, #f6871f 15%, #f6871f 10%, #feb500 84%);
+    }
+   .income .title-section {
+    font-size: 20px;
+    line-height: 28px;
+}
+.order-block {
+    padding: 30px 15px;
+    }
+    .modal-wrap {
+    padding: 44px 15px;
+}
+.modal-wrap p {
+	margin-bottom: 15px;
+}
+.modal-wrap .order-block .title-section {
+	font-size: 24px;
+}
+.modal-wrap .order-block {
+	padding-left: 15px;
+	padding-right: 15px;
 }
 }
 
